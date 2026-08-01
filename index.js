@@ -6,7 +6,7 @@
 
 
 
-document.addEventListener("DOMContentLoaded", () => { 
+document.addEventListener("DOMContentLoaded", () => {
     const faqQuestions = document.querySelectorAll(".faq-question");
     console.log(typeof faqQuestions);
 
@@ -23,4 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
             currentItem.classList.toggle("active");
         });
     });
+});
+
+
+
+const menuBtn = document.getElementById("menu-btn");
+const closeBtn = document.getElementById("close-btn");
+const sidebar = document.getElementById("sidebar");
+
+menuBtn.addEventListener("click", () => {
+    sidebar.classList.add("active");
+});
+
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("active");
 });
