@@ -1,4 +1,4 @@
-* {
+Selling by irresponsiveness twelve PM to twelve PM* {
     margin: 0;
     padding: 0;
     font-family: "DM Sans", sans-serif;
@@ -538,4 +538,363 @@ h2 a {
 
 .faq-item.active .faq-answer {
     max-height: 600px;
+}
+
+
+#menu-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-btn i {
+    position: static;
+    padding: 0;
+}
+
+
+#close-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#close-btn i {
+    position: static;
+    padding: 0;
+}
+
+
+.sidebar ul li i {
+    position: static;
+    padding: 0;
+    font-size: 16px;
+}
+
+.sidebar ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search i {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.search input {
+    padding-left: 55px;
+}
+
+
+@media (max-width:1024px) {
+
+    nav {
+        padding: 15px 20px;
+    }
+
+    .search {
+        margin: 0 20px;
+    }
+
+    .search input {
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .left img {
+        width: 150px;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    #content {
+        order: 1;
+    }
+
+    #Img3 {
+        order: 2;
+    }
+
+    .I3 {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #button3 {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .parah {
+        padding-left: 0;
+    }
+
+    .second-part {
+        padding: 0 20px;
+    }
+
+    .second-part h2 {
+        padding-left: 0;
+    }
+
+    #lists {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .third-part {
+        padding: 0 20px;
+    }
+
+    .boxes {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .QR {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .threeBoxes {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Box1,
+    .Box2,
+    .Box3 {
+        width: 320px;
+    }
+
+    #basket {
+        width: 95%;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 20px;
+    }
+
+    .comment {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .faq-container {
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    nav {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .right {
+        gap: 8px;
+    }
+
+    #login,
+    #signup {
+        width: 80px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .sidebar {
+        width: 260px;
+        left: -260px;
+    }
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    #store {
+        font-size: 26px;
+    }
+
+    #button3 {
+        width: 100%;
+        max-width: 320px;
+        font-size: 15px;
+    }
+
+    .parah {
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .I3 {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .second-part {
+        padding: 0 15px;
+    }
+
+    .second-part h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #lists {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .third-part {
+        padding: 0 15px;
+    }
+
+    .third-part h2 {
+        font-size: 22px;
+    }
+
+    #btn {
+        overflow-x: auto;
+    }
+
+    .buttons {
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .boxes {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .store-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card img {
+        position: static;
+        margin-right: 15px;
+    }
+
+    .content {
+        padding-left: 0;
+    }
+
+    .QR {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .p1 img {
+        width: 150px;
+    }
+
+    .p2 img {
+        width: 120px;
+    }
+
+    .threeBoxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Box1,
+    .Box2,
+    .Box3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #basket {
+        width: 95%;
+    }
+
+    .comment {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .C1 {
+        padding: 25px;
+    }
+
+    .C1 h2 {
+        font-size: 28px;
+    }
+
+    .C1 p {
+        font-size: 18px;
+    }
+
+    .faq-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .faq-answer p {
+        font-size: 15px;
+    }
+
 }
