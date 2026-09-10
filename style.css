@@ -273,6 +273,7 @@ main {
 
 #store {
     margin-bottom: 10px;
+    margin-left: 60px;
     font-size: 33px;
     line-height: 1;
     font-weight: 550;
@@ -289,7 +290,7 @@ main {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    margin: 0 auto;
+    margin: 0 85px;
 }
 
 #button3:hover {
@@ -301,6 +302,7 @@ main {
     color: #e6e6e6;
     font-size: 13px;
     text-align: center;
+    margin-left: 50px;
 }
 
 #Img3 {
