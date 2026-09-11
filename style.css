@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Plus Jakarta Sans", Arial, sans-serif;
-    /* font-family: "Instacart Sans", "Instacart Sans Fallback"; */
 }
 
 body {
@@ -300,9 +299,10 @@ main {
 .parah {
     margin-top: 14px;
     color: #e6e6e6;
+    width: 400px;
     font-size: 13px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 #Img3 {
@@ -317,9 +317,9 @@ main {
 }
 
 .second-part {
-    max-width: 1280px;
-    margin: 27px auto 50px;
-    padding: 0 30px;
+    max-width: 1200px;
+    margin: 27px 148px 50px;
+    /* padding: 0 0px; */
 }
 
 .section-heading {
@@ -395,9 +395,9 @@ main {
 
 
 .third-part {
-    max-width: 1280px;
-    margin: 50px auto 25px;
-    padding: 0 30px;
+    max-width: 1200px;
+    margin: 50px 148px 25px;
+    /* padding: 0 30px; */
 }
 
 .third-part h2 {
@@ -422,7 +422,7 @@ main {
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    margin-left: 42px;
+    margin-left: 44px;
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
@@ -463,10 +463,11 @@ main {
 
 
 .card {
-    min-height: 100px;
+    min-height: 90px;
+    width: 370px;
     /* width: 55px;
     height: 55px; */
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     background: #fff;
@@ -697,9 +698,6 @@ mark {
     /* margin-right: 200px; */
 }
 
-/* #C1{
-    margin-left: 10px;
- } */
 
 .C1 h2 {
     margin-bottom: 25px;
@@ -809,280 +807,6 @@ mark {
 i {
     font-family: "Plus Jakarta Sans", Arial, sans-serif;
 }
-
-@media (max-width: 1100px) {
-
-    nav {
-        padding: 0 20px;
-    }
-
-    .left img {
-        width: 145px;
-    }
-
-    .search {
-        margin: 0 15px;
-    }
-
-    #login,
-    #signup {
-        min-width: 90px;
-        padding: 0 16px;
-    }
-
-    .main {
-        padding: 60px 5%;
-    }
-
-    .store-grid,
-    .save-stores {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .threeBoxes,
-    .stats {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .QR {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-}
-
-
-@media (max-width: 767px) {
-
-    .header,
-    nav {
-        height: 68px;
-    }
-
-    nav {
-        padding: 0 12px;
-        gap: 8px;
-    }
-
-    .left {
-        gap: 10px;
-    }
-
-    .left img {
-        width: 120px;
-    }
-
-    #menu-btn {
-        width: 38px;
-        height: 38px;
-        font-size: 21px;
-    }
-
-    .search {
-        display: none;
-    }
-
-    .right {
-        gap: 6px;
-    }
-
-    #login,
-    #signup {
-        min-width: auto;
-        height: 36px;
-        padding: 0 13px;
-        font-size: 12px;
-    }
-
-    .sidebar {
-        width: 290px;
-        left: -300px;
-    }
-
-    main {
-        padding-top: 68px;
-    }
-
-    .main {
-        flex-direction: column;
-        padding: 55px 20px 45px;
-        gap: 40px;
-        text-align: center;
-    }
-
-    #content {
-        width: 100%;
-    }
-
-    #store {
-        margin-bottom: 25px;
-        font-size: 28px;
-    }
-
-    #button3 {
-        max-width: 330px;
-        font-size: 14px;
-    }
-
-    .parah {
-        font-size: 12px;
-    }
-
-    #Img3 {
-        width: 100%;
-    }
-
-    .I3 {
-        width: 100%;
-        max-width: 390px;
-    }
-
-    .second-part {
-        margin-top: 45px;
-        padding: 0 15px;
-    }
-
-    .section-heading h2 {
-        font-size: 23px;
-    }
-
-    .slider-btn {
-        width: 36px;
-        height: 36px;
-    }
-
-    .save-stores {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .save-store-card {
-        /* min-height: 120px; */
-        padding: 15px;
-        font-size: 15px;
-    }
-
-    .third-part {
-        margin-top: 40px;
-        padding: 0 15px;
-    }
-
-    .third-part h2 {
-        font-size: 22px;
-    }
-
-    #btn {
-        gap: 8px;
-    }
-
-    .buttons {
-        height: 38px;
-        padding: 0 16px;
-        font-size: 13px;
-    }
-
-    .boxes {
-        padding: 0 15px;
-    }
-
-    .store-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .card {
-        min-height: 110px;
-        padding: 16px;
-    }
-
-    .card img {
-        width: 52px;
-        height: 52px;
-    }
-
-    .QR {
-        margin: 30px 15px 60px;
-        padding: 25px 20px;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .p1 img {
-        width: 150px;
-    }
-
-    #blue h2 {
-        font-size: 23px;
-    }
-
-    #blue p {
-        font-size: 14px;
-    }
-
-    .p2 img {
-        width: 100px;
-    }
-
-    .part3 {
-        padding: 0 15px;
-    }
-
-    .part3>h2 {
-        font-size: 27px;
-    }
-
-    .threeBoxes {
-        grid-template-columns: 1fr;
-    }
-
-    .info-card img {
-        height: 230px;
-    }
-
-    .stats-section {
-        padding: 0 15px;
-    }
-
-    .stats-title {
-        font-size: 28px;
-    }
-
-    .stats-title span {
-        display: inline;
-    }
-
-    .stats {
-        grid-template-columns: 1fr;
-    }
-
-    .C1 {
-        min-height: 170px;
-        padding: 25px;
-    }
-
-    .C1 h2 {
-        font-size: 27px;
-    }
-
-    .faq-section {
-        padding: 0 15px;
-    }
-
-    .faq-title {
-        font-size: 30px;
-    }
-
-    .faq-question {
-        min-height: 70px;
-        font-size: 16px;
-    }
-
-    .faq-answer p {
-        padding-right: 5px;
-        font-size: 14px;
-    }
-}
-
-/* hr {
-     padding-left: 8%;
- } */
 
 hr {
     border: 0;
@@ -1212,25 +936,16 @@ hr {
 }
 
 .accessibility {
-    /* display: flex; */
-    /* max-width: 1400px; */
-    /* margin: auto; */
-    padding-left: 74px;
-    /* font-size: 30px;
-     font-weight: 500; */
+    padding-left: 70px;
 }
 
 
 .Acc2 {
     display: flex;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
-    /* margin-left: 1px; */
 }
 
 .Acc2 span {
     margin-left: 8px;
-    /* width: 200px; */
 }
 
 .Acc2 label {
@@ -1291,11 +1006,11 @@ hr {
 }
 
 .legal {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     /* margin: auto; */
     display: flex;
     align-items: center;
-    justify-content: left;
+    /* justify-content: left; */
     gap: 25px;
     padding: 2px 5% 3px 2.5%;
 }
@@ -1366,69 +1081,7 @@ hr {
 }
 
 .footer-parent {
-    /* display: flex;
-     flex-direction: column;
-     padding: 20px 8% 20px; */
-    margin-left: 0px;
-}
-
-
-@media (max-width: 1100px) {
-    .footer-section {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-    }
-}
-
-
-@media (max-width: 700px) {
-    .footer {
-        padding: 40px 25px 25px;
-    }
-
-    .footer-section {
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-    }
-
-    .footer hr {
-        margin: 35px 0;
-    }
-
-    .legal {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .Privacy {
-        flex-direction: column;
-        gap: 10px;
-        /* color: #343538;
-        font-weight: 650; */
-    }
-
-    .social-icons {
-        margin-left: 0;
-    }
-
-    .contrast {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 450px) {
-
-    .app-icons,
-    .app-links {
-        width: 100%;
-    }
-
-    .app-icons a,
-    .app-links a {
-        flex: 1;
-        justify-content: center;
-    }
+    width: 1200px;
 }
 
 
@@ -1569,6 +1222,905 @@ hr {
     gap: 40px;
 }
 
-/* #basket {
-    display: flex;
-} */
+@media (max-width: 1100px) {
+
+    nav {
+        padding: 0 20px;
+    }
+
+    .left {
+        gap: 15px;
+    }
+
+    .left img {
+        width: 135px;
+    }
+
+    .search {
+        margin: 0 10px;
+        max-width: none;
+    }
+
+    #login,
+    #signup {
+        min-width: 100px;
+        padding: 0 15px;
+    }
+
+    .main {
+        padding: 60px 40px;
+        gap: 30px;
+    }
+
+    #content {
+        max-width: 450px;
+    }
+
+    #store {
+        margin-left: 0;
+    }
+
+    #button3 {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .parah {
+        margin-left: 0;
+    }
+
+    .I3 {
+        width: 500px;
+    }
+
+    .second-part {
+        max-width: none;
+        margin: 40px 40px 50px;
+    }
+
+    .section-heading {
+        padding-left: 0;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(6, 96px);
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .third-part {
+        max-width: none;
+        margin: 50px 40px 25px;
+    }
+
+    .third-part h2 {
+        margin-left: 0;
+    }
+
+    #btn {
+        margin-left: 0;
+    }
+
+    .boxes {
+        max-width: none;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .QR {
+        width: auto;
+        margin: 30px 40px 80px;
+    }
+
+    .part3 {
+        max-width: none;
+        margin: 0 40px;
+    }
+
+    .threeBoxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stats-section {
+        width: auto;
+        margin: 100px 40px 80px;
+        padding: 0;
+    }
+
+    #basket-img {
+        width: 100%;
+    }
+
+    .stats {
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 0;
+    }
+
+    .C1 {
+        width: 100%;
+    }
+
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .footer-parent {
+        width: 100%;
+    }
+
+    .footer-section {
+        gap: 40px;
+    }
+
+    .column-parent {
+        margin-left: 20px;
+    }
+
+    .parent-div {
+        padding-left: 20px;
+    }
+
+    .contrast {
+        width: auto;
+        margin-left: 100px;
+    }
+
+    .Privacy {
+        margin-left: 100px;
+    }
+
+    .copyright {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .search {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 55px 30px 45px;
+        text-align: center;
+    }
+
+    #content {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #store {
+        margin-left: 0;
+    }
+
+    #button3 {
+        margin: 0 auto;
+    }
+
+    .parah {
+        margin-left: 0;
+    }
+
+    #Img3 {
+        width: 100%;
+    }
+
+    .I3 {
+        width: 600px;
+        max-width: 100%;
+    }
+
+    .second-part {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(4, 96px);
+        justify-content: center;
+    }
+
+    .third-part {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .boxes {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .QR {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .part3 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .threeBoxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats-section {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .C1 {
+        width: 100%;
+    }
+
+    .faq-section {
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .faq-question {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-section {
+        flex-wrap: wrap;
+    }
+
+    .column-parent {
+        margin-left: 0;
+    }
+
+    .parent-div {
+        padding-left: 0;
+    }
+
+    .accessibility {
+        padding-left: 0;
+    }
+
+    .contrast {
+        margin-left: 50px;
+    }
+
+    .Privacy {
+        margin-left: 50px;
+    }
+
+    .copyright {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header,
+    nav {
+        height: 68px;
+    }
+
+    nav {
+        padding: 0 12px;
+        gap: 8px;
+    }
+
+    .left {
+        gap: 8px;
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    #menu-btn {
+        width: 38px;
+        height: 38px;
+        font-size: 21px;
+    }
+
+    #menu-btn i {
+        padding-left: 0;
+    }
+
+    .right {
+        gap: 6px;
+    }
+
+    #login,
+    #signup {
+        min-width: auto;
+        height: 36px;
+        padding: 0 13px;
+        font-size: 12px;
+    }
+
+    .sidebar {
+        width: 290px;
+        left: -300px;
+    }
+
+    .sidebar ul {
+        margin-left: 20px;
+    }
+
+    main {
+        padding-top: 68px;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 45px 20px 40px;
+        gap: 35px;
+    }
+
+    #content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #store {
+        margin-left: 0;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    #button3 {
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .parah {
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    #Img3 {
+        width: 100%;
+    }
+
+    .I3 {
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .second-part {
+        max-width: none;
+        margin: 40px 15px 45px;
+        padding: 0;
+    }
+
+    .section-heading {
+        padding-left: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        gap: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 21px;
+    }
+
+    .slider-buttons {
+        flex-shrink: 0;
+    }
+
+    .slider-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(3, 96px);
+        gap: 14px;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .third-part {
+        max-width: none;
+        margin: 40px 15px 25px;
+        padding: 0;
+    }
+
+    .third-part h2 {
+        margin-left: 0;
+        font-size: 22px;
+    }
+
+    #btn {
+        margin-left: 0;
+        overflow-x: auto;
+    }
+
+    .buttons {
+        height: 38px;
+        padding: 0 16px;
+        font-size: 13px;
+        flex-shrink: 0;
+    }
+
+    .boxes {
+        max-width: none;
+        margin: 0 15px;
+        padding: 0;
+    }
+
+    .store-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 100px;
+        padding: 15px;
+    }
+
+    .card img,
+    .img-parent {
+        width: 55px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+
+    .QR {
+        width: auto;
+        margin: 30px 15px 60px;
+        padding: 25px 20px;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .p1 img {
+        width: 150px;
+    }
+
+    #blue h2 {
+        font-size: 21px;
+    }
+
+    #blue p {
+        font-size: 13px;
+    }
+
+    .p2 img {
+        width: 90px;
+        margin-left: 0;
+    }
+
+    .part3 {
+        max-width: none;
+        margin: 0 15px;
+        padding: 0;
+    }
+
+    .part3>h2 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .threeBoxes {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .info-card img {
+        height: 230px;
+    }
+
+    .stats-section {
+        width: auto;
+        margin: 80px 15px 60px;
+        padding: 0;
+    }
+
+    .stats-title {
+        font-size: 26px;
+    }
+
+    #basket-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .C1 {
+        width: 100%;
+        height: auto;
+        min-height: 160px;
+        padding: 25px;
+    }
+
+    .C1 h2 {
+        font-size: 27px;
+    }
+
+    .C1 p {
+        font-size: 20px;
+    }
+
+    .faq-section {
+        max-width: none;
+        margin: 0 15px 70px;
+        padding: 0;
+    }
+
+    .faq-title {
+        font-size: 27px;
+    }
+
+    .faq-question {
+        min-height: 70px;
+        font-size: 17px;
+        gap: 15px;
+    }
+
+    .faq-icon {
+        width: 25px;
+        height: 25px;
+        font-size: 24px;
+        flex-shrink: 0;
+    }
+
+    .faq-answer p {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+
+
+    .footer {
+        padding: 35px 20px 25px;
+    }
+
+    .footer-parent {
+        width: 100%;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .column-parent {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0;
+    }
+
+    .parent-div {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-column h3 {
+        width: auto;
+    }
+
+    .footer-column ul {
+        width: auto;
+    }
+
+    .new-div {
+        width: 100%;
+    }
+
+    .app-icons,
+    .app-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .accessibility {
+        padding-left: 0;
+    }
+
+    .Acc2 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contrast {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .switch {
+        transform: none;
+    }
+
+    .legal {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 5px 0;
+    }
+
+    .Privacy {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .social-icons {
+        margin-left: 0;
+    }
+
+    .copyright {
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    .basket-div,
+    .carrot-div {
+        padding-left: 40px;
+        margin-left: 0;
+    }
+
+    .basket-div::before,
+    .carrot-div::before {
+        right: auto;
+        left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .left img {
+        width: 105px;
+    }
+
+    #login,
+    #signup {
+        padding: 0 10px;
+        font-size: 11px;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(2, 96px);
+        gap: 16px;
+    }
+
+    .save-store-card {
+        width: 96px;
+        height: 68px;
+    }
+
+    #store {
+        font-size: 25px;
+    }
+
+    #button3 {
+        max-width: 100%;
+    }
+
+    .card {
+        gap: 12px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .QR {
+        padding: 25px 15px;
+    }
+
+    .info-card img {
+        height: 210px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    .app-icons,
+    .app-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .app-icons a,
+    .app-links a {
+        width: auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    nav {
+        padding: 0 8px;
+    }
+
+    .left {
+        gap: 5px;
+    }
+
+    .left img {
+        width: 95px;
+    }
+
+    #menu-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+    }
+
+    .right {
+        gap: 4px;
+    }
+
+    #login,
+    #signup {
+        height: 34px;
+        padding: 0 8px;
+        font-size: 10px;
+    }
+
+
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #store {
+        font-size: 23px;
+    }
+
+    #button3 {
+        height: 52px;
+        font-size: 13px;
+    }
+
+
+    .second-part {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+    }
+
+    .section-heading h2 {
+        font-size: 19px;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(2, 96px);
+        justify-content: space-around;
+    }
+
+
+    .third-part {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .third-part h2 {
+        font-size: 20px;
+    }
+
+    .boxes {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+
+    .QR {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    #blue h2 {
+        font-size: 19px;
+    }
+
+    .part3 {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .part3>h2 {
+        font-size: 23px;
+    }
+
+
+    .stats-section {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .stats-title {
+        font-size: 24px;
+    }
+
+    .faq-section {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .faq-title {
+        font-size: 25px;
+    }
+
+    .faq-question {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-brand span {
+        font-size: 17px;
+    }
+
+    .footer-column h3,
+    .accessibility h3,
+    .legal h3 {
+        font-size: 17px;
+    }
+
+    .footer-column a,
+    .Privacy a {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
