@@ -454,9 +454,9 @@ main {
 
 .boxes {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
-    margin-left: 180px;
+    /* margin: 0 auto;
+    padding: 0 10px; */
+    margin-left: 42px;
     /* border: 2px solid green; */
 }
 
@@ -554,14 +554,15 @@ main {
 }
 
 
-.QR-parent{
+/* .QR-parent {
     padding-right: 163px;
-}
+} */
+
 .QR {
     max-width: 1200px;
     /* width: 1160px; */
     height: auto;
-    margin: 20px 0 100px 190px;
+    margin: 20px 10px 100px 42px;
     /* padding-right: 50px; */
     border-radius: 10px;
     background: #b1e5d5;
@@ -1149,7 +1150,7 @@ hr {
     align-items: center;
     color: #111;
     font-family: Arial, sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 0.85;
     transform: rotate(-14deg);
 }
