@@ -275,7 +275,7 @@ main {
 #store {
     margin-bottom: 10px;
     margin-left: 60px;
-    font-size: 33px;
+    font-size: 26px;
     line-height: 1;
     font-weight: 550;
     text-align: center;
@@ -349,7 +349,7 @@ main {
 
 .save-store-card {
     width: 90px;
-    height: 80px;
+    height: 72px;
     border-radius: 14px;
     display: flex;
     align-items: center;
@@ -360,7 +360,7 @@ main {
 
 .save-store-card img {
     width: 90px;
-    height: 80px;
+    height: 72px;
     border-radius: 80px;
     align-items: center;
     display: flex;
@@ -706,9 +706,9 @@ mark {
 
 .C1 h2 {
     margin-bottom: 25px;
-    font-size: 33px;
-    line-height: 1.1;
-    font-weight: 650;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 850;
 }
 
 .C1 p {
