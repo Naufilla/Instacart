@@ -820,10 +820,10 @@ i {
 hr {
     border: 0;
     border-top: 1px solid #ddd;
-    margin: 20px 0px 20px 23px;
+    margin: 20px 0px 20px 30px;
     /* max-width: 1250px; */
     width: 1240px;
-}
+}   
 
 .footer {
     /* width: 100%; */
@@ -1174,8 +1174,8 @@ hr {
     background-position: center;
     vertical-align: middle;
     position: absolute;
-    right: 260px;
-    top: 10px;
+    right: 250px;
+    top: 5px;
     padding-left: 10px;
     transform: translateY(-15px);
 }
@@ -1192,8 +1192,8 @@ hr {
     vertical-align: middle;
     text-align: center;
     position: absolute;
-    right: 260px;
-    top: 9px;
+    right: 250px;
+    top: 5px;
     padding-left: 10px;
     transform: translateY(-15px);
 }
