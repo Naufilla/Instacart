@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const faqQuestions = document.querySelectorAll(".faq-question");
 
+
+    console.log(faqQuestions)
     faqQuestions.forEach((question) => {
 
         question.addEventListener("click", () => {
@@ -23,6 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-    });
-
+    }); 
 });
