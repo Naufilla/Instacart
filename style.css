@@ -1304,6 +1304,7 @@ hr {
 @media (max-width: 1100px) {
 
     nav {
+        height: 100px;
         padding: 0 20px;
     }
 
@@ -1327,8 +1328,10 @@ hr {
     }
 
     .main {
-        padding: 60px 40px;
+        /* width: 100%; */
+        /* padding: 60px 40px; */
         gap: 30px;
+        width: 1310px;
     }
 
     #content {
@@ -1349,12 +1352,19 @@ hr {
     }
 
     .I3 {
-        width: 500px;
+        width: 600px;
     }
 
     .second-part {
-        max-width: none;
-        margin: 40px 40px 50px;
+        /* max-width: none; */
+        width: 1100px;
+        margin-left: 100px;
+        /* margin: 40px 40px 50px; */
+    }
+
+
+    .san-francisco {
+        margin-left: 4px;
     }
 
     .section-heading {
@@ -1362,9 +1372,10 @@ hr {
     }
 
     .save-stores {
-        grid-template-columns: repeat(6, 96px);
+        grid-template-columns: repeat(9, 1fr);
         margin-left: 0;
         justify-content: center;
+        /* width: 50px; */
     }
 
     .third-part {
@@ -1388,25 +1399,37 @@ hr {
     }
 
     .store-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: -30px;
     }
 
     .card {
-        width: 100%;
+        width: 345px;
+    }
+
+    .show {
+        margin-left: 220px;
     }
 
     .QR {
         width: auto;
-        margin: 30px 40px 80px;
+        margin: 30px 15px 80px;
     }
 
     .part3 {
         max-width: none;
-        margin: 0 40px;
+        margin: 0px;
+        margin-left: 100px;
+        /* margin-right: 100px; */
     }
 
     .threeBoxes {
         grid-template-columns: repeat(3, 1fr);
+        /* margin: 0px auto; */
+        /* margin-left: 100px; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
     }
 
     .stats-section {
@@ -1426,6 +1449,28 @@ hr {
 
     .C1 {
         width: 100%;
+    }
+
+    .stats-section {
+        padding: 40px 25px;
+    }
+
+    .stats-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .secondLast {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #basket-img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        object-fit: contain;
     }
 
     .footer {
@@ -1461,378 +1506,151 @@ hr {
     .copyright {
         padding-left: 20px;
     }
-}
 
-@media (max-width: 900px) {
-
-    .search {
-        display: none;
-    }
-
-    nav {
-        justify-content: space-between;
-    }
-
-    .right {
-        margin-left: auto;
-    }
-
-    .main {
-        flex-direction: column;
-        padding: 55px 30px 45px;
-        text-align: center;
-    }
-
-    #content {
-        width: 100%;
-        max-width: 600px;
-    }
-
-    #store {
-        margin-left: 0;
-    }
-
-    #button3 {
-        margin: 0 auto;
-    }
-
-    .parah {
-        margin-left: 0;
-    }
-
-    #Img3 {
-        width: 100%;
-    }
-
-    .I3 {
-        width: 600px;
-        max-width: 100%;
-    }
-
-    .second-part {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .save-stores {
-        grid-template-columns: repeat(4, 96px);
-        justify-content: center;
-    }
-
-    .third-part {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .boxes {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .store-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .QR {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .part3 {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
+    /* 
     .threeBoxes {
-        grid-template-columns: repeat(2, 1fr);
-    }
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+    } */
 
-    .stats-section {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .stats {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .C1 {
+    .info-card {
         width: 100%;
+        /* min-width: 0; */
     }
 
-    .faq-section {
-        max-width: none;
-        margin-left: 20px;
-        margin-right: 20px;
+    .info-card img {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
-    .faq-question {
-        font-size: 24px;
+    .heading {
+        font-size: 28px;
     }
 
-    .footer {
-        padding-left: 30px;
-        padding-right: 30px;
+    .heading3 {
+        font-size: 18px;
     }
 
-    .footer-section {
-        flex-wrap: wrap;
-    }
-
-    .column-parent {
-        margin-left: 0;
-    }
-
-    .parent-div {
-        padding-left: 0;
-    }
-
-    .accessibility {
-        padding-left: 0;
-    }
-
-    .contrast {
-        margin-left: 50px;
-    }
-
-    .Privacy {
-        margin-left: 50px;
-    }
-
-    .copyright {
-        padding-left: 0;
+    .heading4 {
+        font-size: 14px;
+        line-height: 1.5;
     }
 }
 
-@media (max-width: 767px) {
 
-    .header,
-    nav {
-        height: 68px;
-    }
 
+
+@media (max-width: 1100px) {
     nav {
-        padding: 0 12px;
-        gap: 8px;
+        padding: 0 20px;
+        gap: 12px;
     }
 
     .left {
-        gap: 8px;
+        gap: 15px;
     }
 
     .left img {
         width: 120px;
     }
 
-    #menu-btn {
-        width: 38px;
-        height: 38px;
-        font-size: 21px;
-    }
-
-    #menu-btn i {
-        padding-left: 0;
-    }
-
-    .right {
-        gap: 6px;
+    .search {
+        margin: 0 10px;
     }
 
     #login,
     #signup {
         min-width: auto;
-        height: 36px;
-        padding: 0 13px;
-        font-size: 12px;
-    }
-
-    .sidebar {
-        width: 290px;
-        left: -300px;
-    }
-
-    .sidebar ul {
-        margin-left: 20px;
-    }
-
-    main {
-        padding-top: 68px;
+        padding: 0 15px;
     }
 
     .main {
-        flex-direction: column;
-        padding: 45px 20px 40px;
-        gap: 35px;
-    }
-
-    #content {
         width: 100%;
-        max-width: 100%;
-    }
-
-    #store {
-        margin-left: 0;
-        font-size: 28px;
-        line-height: 1.2;
+        padding: 100px 30px 30px;
+        gap: 25px;
     }
 
     #button3 {
-        width: 100%;
-        max-width: 330px;
+        max-width: 100%;
         margin: 0 auto;
-        font-size: 14px;
     }
 
     .parah {
+        max-width: 100%;
         margin-left: 0;
-        font-size: 12px;
-    }
-
-    #Img3 {
-        width: 100%;
-    }
-
-    .I3 {
-        width: 100%;
-        max-width: 390px;
     }
 
     .second-part {
-        max-width: none;
-        margin: 40px 15px 45px;
-        padding: 0;
+        width: auto;
+        max-width: 100%;
+        margin: 30px 25px;
     }
 
-    .section-heading {
+    .section-heading,
+    .h2 {
         padding-left: 0;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        gap: 15px;
-    }
-
-    .section-heading h2 {
-        font-size: 21px;
-    }
-
-    .slider-buttons {
-        flex-shrink: 0;
-    }
-
-    .slider-btn {
-        width: 36px;
-        height: 36px;
+        margin-left: 0;
     }
 
     .save-stores {
-        grid-template-columns: repeat(3, 96px);
-        gap: 14px;
-        margin-left: 0;
-        justify-content: center;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0;
     }
 
-    .third-part {
-        max-width: none;
-        margin: 40px 15px 25px;
-        padding: 0;
-    }
-
-    .third-part h2 {
-        margin-left: 0;
-        font-size: 22px;
-    }
-
-    #btn {
-        margin-left: 0;
-        overflow-x: auto;
-    }
-
-    .buttons {
-        height: 38px;
-        padding: 0 16px;
-        font-size: 13px;
-        flex-shrink: 0;
+    .save-store-card,
+    .save-store-card img {
+        max-width: 100%;
     }
 
     .boxes {
-        max-width: none;
-        margin: 0 15px;
-        padding: 0;
+        max-width: 100%;
+        margin: 0;
     }
 
     .store-grid {
-        grid-template-columns: 1fr;
-        gap: 14px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 0;
     }
 
     .card {
         width: 100%;
-        min-height: 100px;
-        padding: 15px;
+        min-width: 0;
     }
 
-    .card img,
-    .img-parent {
-        width: 55px;
-        height: 55px;
-        flex-shrink: 0;
+    .show {
+        margin-left: 0;
     }
 
     .QR {
-        width: auto;
-        margin: 30px 15px 60px;
-        padding: 25px 20px;
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-
-    .p1 img {
-        width: 150px;
-    }
-
-    #blue h2 {
-        font-size: 21px;
-    }
-
-    #blue p {
-        font-size: 13px;
-    }
-
-    .p2 img {
-        width: 90px;
-        margin-left: 0;
+        margin: 30px 20px;
+        max-width: none;
     }
 
     .part3 {
         max-width: none;
-        margin: 0 15px;
-        padding: 0;
-    }
-
-    .part3>h2 {
-        margin-top: 50px;
-        margin-bottom: 30px;
-        font-size: 25px;
+        margin: 0 25px;
     }
 
     .threeBoxes {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .info-card img {
-        height: 230px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
     }
 
     .stats-section {
         width: auto;
-        margin: 80px 15px 60px;
-        padding: 0;
+        margin: 80px 25px;
     }
 
-    .stats-title {
-        font-size: 26px;
+    .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-left: 0;
+    }
+
+    .C1 {
+        width: 100%;
+        height: auto;
     }
 
     #basket-img {
@@ -1840,96 +1658,197 @@ hr {
         height: auto;
     }
 
-    .stats {
-        grid-template-columns: 1fr;
-        margin-left: 0;
-        gap: 10px;
+    hr {
+        width: auto;
+        margin: 20px;
     }
-
-    .C1 {
-        width: 100%;
-        height: auto;
-        min-height: 160px;
-        padding: 25px;
-    }
-
-    .C1 h2 {
-        font-size: 27px;
-    }
-
-    .C1 p {
-        font-size: 20px;
-    }
-
-    .faq-section {
-        max-width: none;
-        margin: 0 15px 70px;
-        padding: 0;
-    }
-
-    .faq-title {
-        font-size: 27px;
-    }
-
-    .faq-question {
-        min-height: 70px;
-        font-size: 17px;
-        gap: 15px;
-    }
-
-    .faq-icon {
-        width: 25px;
-        height: 25px;
-        font-size: 24px;
-        flex-shrink: 0;
-    }
-
-    .faq-answer p {
-        padding-right: 5px;
-        font-size: 14px;
-    }
-
 
     .footer {
-        padding: 35px 20px 25px;
-    }
-
-    .footer-parent {
-        width: 100%;
+        padding: 0 25px 20px;
     }
 
     .footer-section {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+        gap: 25px;
     }
 
     .column-parent {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
         margin-left: 0;
     }
 
-    .parent-div {
-        width: 100%;
+    .parent-div,
+    .accessibility {
         padding-left: 0;
     }
 
-    .footer-column {
+    .contrast,
+    .Privacy {
+        width: auto;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        min-height: 80px;
+        flex-wrap: wrap;
+        padding: 12px 16px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .left {
+        gap: 10px;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    #menu-btn i {
+        padding-left: 0;
+    }
+
+    .search {
+        order: 3;
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    .right {
+        gap: 8px;
+    }
+
+    #login,
+    #signup {
+        height: 36px;
+        padding: 0 12px;
+        font-size: 13px;
+    }
+
+    main {
+        padding-top: 70px;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 100px 20px 30px;
+        text-align: center;
+    }
+
+    #content {
+        max-width: 100%;
+    }
+
+    #store {
+        margin-left: 0;
+    }
+
+    #button3 {
         width: 100%;
     }
 
-    .footer-column h3 {
-        width: auto;
-    }
-
-    .footer-column ul {
-        width: auto;
-    }
-
-    .new-div {
+    .I3 {
         width: 100%;
+    }
+
+    .second-part {
+        margin: 25px 16px;
+    }
+
+    .section-heading {
+        gap: 12px;
+        padding: 0;
+        width: 140%;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(3, (1fr));
+        gap: 12px;
+    }
+
+    .save-store-card {
+        width: 100%;
+    }
+
+    .save-store-card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .store-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .QR {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        margin: 25px 16px;
+    }
+
+    .p2 img {
+        margin-left: 0;
+    }
+
+    .part3 {
+        margin: 0 16px;
+    }
+
+    .threeBoxes {
+        grid-template-columns: 1fr;
+    }
+
+    .info-card img {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .stats-section {
+        margin: 60px 16px;
+        padding: 0;
+    }
+
+    .stats-title {
+        font-size: 26px;
+    }
+
+    .C1 {
+        padding: 20px;
+    }
+
+    .C1 p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .faq-section {
+        padding: 0 16px;
+    }
+
+    .faq-question {
+        min-height: 90px;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .footer {
+        padding: 0 16px 20px;
+    }
+
+    .footer-section,
+    .column-parent {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .newParent-div,
+    .newParent {
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     .app-icons,
@@ -1938,237 +1857,64 @@ hr {
         gap: 15px;
     }
 
-    .accessibility {
-        padding-left: 0;
-    }
-
     .Acc2 {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 12px;
-    }
-
-    .contrast {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .switch {
-        transform: none;
-    }
-
-    .legal {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        padding: 5px 0;
-    }
-
-    .Privacy {
-        flex-direction: column;
-        gap: 10px;
-        margin-left: 0;
-    }
-
-    .social-icons {
-        margin-left: 0;
-    }
-
-    .copyright {
-        padding-left: 0;
-        font-size: 13px;
-    }
-
-    .basket-div,
-    .carrot-div {
-        padding-left: 40px;
-        margin-left: 0;
-    }
-
-    .basket-div::before,
-    .carrot-div::before {
-        right: auto;
-        left: 0;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 
-    .left img {
-        width: 105px;
-    }
-
-    #login,
-    #signup {
-        padding: 0 10px;
-        font-size: 11px;
-    }
-
-    .save-stores {
-        grid-template-columns: repeat(2, 96px);
-        gap: 16px;
-    }
-
-    .save-store-card {
-        width: 96px;
-        height: 68px;
-    }
-
-    #store {
-        font-size: 25px;
-    }
-
-    #button3 {
-        max-width: 100%;
-    }
-
-    .card {
-        gap: 12px;
-    }
-
-    .card h3 {
-        font-size: 16px;
-    }
-
-    .QR {
-        padding: 25px 15px;
-    }
-
-    .info-card img {
-        height: 210px;
-    }
-
-    .faq-question {
-        font-size: 16px;
-    }
-
-    .app-icons,
-    .app-links {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .app-icons a,
-    .app-links a {
-        width: auto;
-    }
-}
-
-@media (max-width: 450px) {
-
-
-    nav {
-        padding: 0 8px;
-    }
-
-    .left {
-        gap: 5px;
-    }
-
-    .left img {
-        width: 95px;
-    }
-
-    #menu-btn {
-        width: 32px;
-        height: 32px;
-        font-size: 18px;
-    }
-
-    .right {
-        gap: 4px;
-    }
-
-    #login,
-    #signup {
-        height: 34px;
-        padding: 0 8px;
-        font-size: 10px;
-    }
+    /* * {
+        width: 140%;
+    } */
 
 
     .main {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 100px 16px 25px;
+        width: 140%;
     }
-
-    #store {
-        font-size: 23px;
-    }
-
-    #button3 {
-        height: 52px;
-        font-size: 13px;
-    }
-
 
     .second-part {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .section-heading {
-        align-items: flex-start;
-    }
-
-    .section-heading h2 {
-        font-size: 19px;
+        margin: 20px 12px;
     }
 
     .save-stores {
-        grid-template-columns: repeat(2, 96px);
-        justify-content: space-around;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 120%;
+        margin: 0 auto;
+        padding-left: 50px;
     }
 
-
-    .third-part {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .third-part h2 {
+    .section-heading h2,
+    .h2 {
         font-size: 20px;
-    }
-
-    .boxes {
-        margin-left: 12px;
-        margin-right: 12px;
+        width: 140%;
     }
 
     .card {
+        gap: 12px;
         padding: 12px;
     }
 
+    .card img,
+    .img-parent {
+        width: 60px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+
     .QR {
-        margin-left: 12px;
-        margin-right: 12px;
+        margin: 20px 12px;
+        padding: 16px;
     }
 
-    #blue h2 {
-        font-size: 19px;
-    }
-
-    .part3 {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .part3>h2 {
-        font-size: 23px;
-    }
-
-
-    .stats-section {
-        margin-left: 12px;
-        margin-right: 12px;
+    .stats {
+        grid-template-columns: 1fr;
     }
 
     .stats-title {
-        font-size: 24px;
-    }
-
-    .faq-section {
-        margin-left: 12px;
-        margin-right: 12px;
+        font-size: 23px;
     }
 
     .faq-title {
@@ -2176,30 +1922,22 @@ hr {
     }
 
     .faq-question {
-        font-size: 15px;
+        font-size: 18px;
     }
 
-    .footer {
-        padding-left: 15px;
-        padding-right: 15px;
+    .sidebar {
+        width: min(320px, 90%);
     }
 
-    .footer-brand span {
-        font-size: 17px;
+    .sidebar ul {
+        margin-left: 0;
     }
 
-    .footer-column h3,
-    .accessibility h3,
-    .legal h3 {
-        font-size: 17px;
+    .footer-column ul {
+        width: auto;
     }
 
-    .footer-column a,
-    .Privacy a {
-        font-size: 14px;
-    }
-
-    .copyright {
-        font-size: 12px;
+    .new-div {
+        max-width: 100%;
     }
 }
