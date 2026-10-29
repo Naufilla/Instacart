@@ -1301,11 +1301,12 @@ hr {
     line-height: 20px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
+
 
     nav {
-        height: 100px;
-        padding: 0 20px;
+        /* padding: 0 20px; */
+        gap: 12px;
     }
 
     .left {
@@ -1313,12 +1314,11 @@ hr {
     }
 
     .left img {
-        width: 135px;
+        width: 130px;
     }
 
     .search {
         margin: 0 10px;
-        max-width: none;
     }
 
     #login,
@@ -1327,110 +1327,84 @@ hr {
         padding: 0 15px;
     }
 
+
     .main {
-        /* width: 100%; */
-        /* padding: 60px 40px; */
+        padding: 70px 40px 30px;
         gap: 30px;
-        width: 1310px;
     }
 
     #content {
         max-width: 450px;
     }
 
-    #store {
-        margin-left: 0;
-    }
-
-    #button3 {
-        width: 330px;
-        margin: 0 auto;
-    }
-
+    #store,
     .parah {
         margin-left: 0;
     }
 
-    .I3 {
-        width: 600px;
+    #button3 {
+        width: 100%;
+        max-width: 370px;
+        margin: 0 auto;
     }
+
+    .parah {
+        width: auto;
+    }
+
+    .I3 {
+        width: 100%;
+    }
+
 
     .second-part {
-        /* max-width: none; */
-        width: 1100px;
-        margin-left: 100px;
-        /* margin: 40px 40px 50px; */
-    }
-
-
-    .san-francisco {
-        margin-left: 4px;
+        max-width: none;
+        margin: 27px 40px 50px;
     }
 
     .section-heading {
         padding-left: 0;
     }
 
+    .h2,
+    #btn,
+    .boxes {
+        margin-left: 0;
+    }
+
     .save-stores {
-        grid-template-columns: repeat(9, 1fr);
-        margin-left: 0;
-        justify-content: center;
-        /* width: 50px; */
-    }
-
-    .third-part {
-        max-width: none;
-        margin: 50px 40px 25px;
-    }
-
-    .third-part h2 {
-        margin-left: 0;
-    }
-
-    #btn {
-        margin-left: 0;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        justify-items: center;
+        margin: 0;
     }
 
     .boxes {
         max-width: none;
-        margin-left: 40px;
-        margin-right: 40px;
-        padding: 0;
     }
 
     .store-grid {
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: -30px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .card {
-        width: 345px;
+        width: 100%;
     }
 
     .show {
-        margin-left: 220px;
+        margin-left: 0;
     }
 
+
     .QR {
-        width: auto;
-        margin: 30px 15px 80px;
+        margin: 20px 40px 80px;
     }
+
 
     .part3 {
         max-width: none;
-        margin: 0px;
-        margin-left: 100px;
-        /* margin-right: 100px; */
+        margin: 0 40px;
     }
 
-    .threeBoxes {
-        grid-template-columns: repeat(3, 1fr);
-        /* margin: 0px auto; */
-        /* margin-left: 100px; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
 
     .stats-section {
         width: auto;
@@ -1439,43 +1413,30 @@ hr {
     }
 
     #basket-img {
-        width: 100%;
+        height: auto;
+        max-height: 380px;
+        object-fit: cover;
     }
 
     .stats {
-        grid-template-columns: repeat(4, 1fr);
         margin-left: 0;
+        gap: 16px;
     }
 
     .C1 {
         width: 100%;
-    }
-
-    .stats-section {
-        padding: 40px 25px;
-    }
-
-    .stats-title {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .secondLast {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #basket-img {
-        width: 100%;
-        max-width: 600px;
         height: auto;
-        object-fit: contain;
+        min-height: 230px;
+    }
+
+
+    hr {
+        width: auto;
+        margin: 20px 40px;
     }
 
     .footer {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 0 40px 20px;
     }
 
     .footer-parent {
@@ -1487,196 +1448,12 @@ hr {
     }
 
     .column-parent {
-        margin-left: 20px;
-    }
-
-    .parent-div {
-        padding-left: 20px;
-    }
-
-    .contrast {
-        width: auto;
-        margin-left: 100px;
-    }
-
-    .Privacy {
-        margin-left: 100px;
-    }
-
-    .copyright {
-        padding-left: 20px;
-    }
-
-    /* 
-    .threeBoxes {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 20px;
-    } */
-
-    .info-card {
-        width: 100%;
-        /* min-width: 0; */
-    }
-
-    .info-card img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .heading {
-        font-size: 28px;
-    }
-
-    .heading3 {
-        font-size: 18px;
-    }
-
-    .heading4 {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-}
-
-
-
-
-@media (max-width: 1100px) {
-    nav {
-        padding: 0 20px;
-        gap: 12px;
-    }
-
-    .left {
-        gap: 15px;
-    }
-
-    .left img {
-        width: 120px;
-    }
-
-    .search {
-        margin: 0 10px;
-    }
-
-    #login,
-    #signup {
-        min-width: auto;
-        padding: 0 15px;
-    }
-
-    .main {
-        width: 100%;
-        padding: 100px 30px 30px;
-        gap: 25px;
-    }
-
-    #button3 {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .parah {
-        max-width: 100%;
-        margin-left: 0;
-    }
-
-    .second-part {
-        width: auto;
-        max-width: 100%;
-        margin: 30px 25px;
-    }
-
-    .section-heading,
-    .h2 {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .save-stores {
-        grid-template-columns: repeat(5, 1fr);
-        margin: 0;
-    }
-
-    .save-store-card,
-    .save-store-card img {
-        max-width: 100%;
-    }
-
-    .boxes {
-        max-width: 100%;
-        margin: 0;
-    }
-
-    .store-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin: 0;
-    }
-
-    .card {
-        width: 100%;
-        min-width: 0;
-    }
-
-    .show {
-        margin-left: 0;
-    }
-
-    .QR {
-        margin: 30px 20px;
-        max-width: none;
-    }
-
-    .part3 {
-        max-width: none;
-        margin: 0 25px;
-    }
-
-    .threeBoxes {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 18px;
-    }
-
-    .stats-section {
-        width: auto;
-        margin: 80px 25px;
-    }
-
-    .stats {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin-left: 0;
-    }
-
-    .C1 {
-        width: 100%;
-        height: auto;
-    }
-
-    #basket-img {
-        width: 100%;
-        height: auto;
-    }
-
-    hr {
-        width: auto;
-        margin: 20px;
-    }
-
-    .footer {
-        padding: 0 25px 20px;
-    }
-
-    .footer-section {
-        gap: 25px;
-    }
-
-    .column-parent {
         margin-left: 0;
     }
 
     .parent-div,
-    .accessibility {
+    .accessibility,
+    .copyright {
         padding-left: 0;
     }
 
@@ -1687,16 +1464,53 @@ hr {
     }
 }
 
+
+
+@media (max-width: 992px) {
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .heading3 {
+        font-size: 18px;
+    }
+
+    .store-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .threeBoxes {
+        gap: 18px;
+    }
+
+    .info-card img {
+        height: 220px;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer-section {
+        flex-wrap: wrap;
+    }
+}
+
+
+
 @media (max-width: 768px) {
+
+
+    .header {
+        height: auto;
+    }
+
     nav {
         height: auto;
         min-height: 80px;
         flex-wrap: wrap;
         padding: 12px 16px;
-    }
-
-    .header {
-        height: auto;
     }
 
     .left {
@@ -1728,13 +1542,20 @@ hr {
         font-size: 13px;
     }
 
+
     main {
-        padding-top: 70px;
+        padding-top: 130px;
     }
+
+
+    .sidebar ul {
+        margin-left: 0;
+    }
+
 
     .main {
         flex-direction: column;
-        padding: 100px 20px 30px;
+        padding: 40px 20px 30px;
         text-align: center;
     }
 
@@ -1742,17 +1563,10 @@ hr {
         max-width: 100%;
     }
 
-    #store {
-        margin-left: 0;
-    }
-
     #button3 {
-        width: 100%;
+        max-width: none;
     }
 
-    .I3 {
-        width: 100%;
-    }
 
     .second-part {
         margin: 25px 16px;
@@ -1760,22 +1574,11 @@ hr {
 
     .section-heading {
         gap: 12px;
-        padding: 0;
-        width: 140%;
     }
 
     .save-stores {
-        grid-template-columns: repeat(3, (1fr));
-        gap: 12px;
-    }
-
-    .save-store-card {
-        width: 100%;
-    }
-
-    .save-store-card img {
-        width: 100%;
-        height: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 18px;
     }
 
     .store-grid {
@@ -1783,16 +1586,19 @@ hr {
         gap: 12px;
     }
 
+
     .QR {
         flex-direction: column;
         gap: 20px;
         padding: 20px;
         margin: 25px 16px;
+        text-align: center;
     }
 
     .p2 img {
         margin-left: 0;
     }
+
 
     .part3 {
         margin: 0 16px;
@@ -1807,13 +1613,17 @@ hr {
         max-height: 300px;
     }
 
+
     .stats-section {
         margin: 60px 16px;
-        padding: 0;
     }
 
     .stats-title {
         font-size: 26px;
+    }
+
+    #basket-img {
+        max-height: 260px;
     }
 
     .C1 {
@@ -1825,6 +1635,7 @@ hr {
         line-height: 1.4;
     }
 
+
     .faq-section {
         padding: 0 16px;
     }
@@ -1833,6 +1644,11 @@ hr {
         min-height: 90px;
         font-size: 20px;
         line-height: 1.4;
+    }
+
+
+    hr {
+        margin: 20px 16px;
     }
 
     .footer {
@@ -1846,50 +1662,51 @@ hr {
     }
 
     .newParent-div,
-    .newParent {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
+    .newParent,
     .app-icons,
-    .app-links {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
+    .app-links,
     .Acc2 {
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 15px;
+    }
+
+    .basket-div::before,
+    .carrot-div::before {
+        right: auto;
+        left: 0;
+    }
+
+    .legal {
+        flex-wrap: wrap;
+        padding: 2px 0 3px;
+    }
+
+    .Privacy {
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
 
+
+
 @media (max-width: 480px) {
 
-    /* * {
-        width: 140%;
-    } */
-
-
     .main {
-        padding: 100px 16px 25px;
-        width: 140%;
+        padding: 30px 16px 25px;
     }
 
     .second-part {
         margin: 20px 12px;
     }
 
-    .save-stores {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        width: 120%;
-        margin: 0 auto;
-        padding-left: 50px;
-    }
-
     .section-heading h2,
     .h2 {
         font-size: 20px;
-        width: 140%;
+    }
+
+    .save-stores {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
     }
 
     .card {
@@ -1929,15 +1746,13 @@ hr {
         width: min(320px, 90%);
     }
 
-    .sidebar ul {
-        margin-left: 0;
-    }
-
-    .footer-column ul {
+    .footer-column ul,
+    .footer-column h3 {
         width: auto;
     }
 
     .new-div {
+        width: 100%;
         max-width: 100%;
     }
 }
