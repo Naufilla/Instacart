@@ -1136,7 +1136,6 @@ hr {
     width: 1200px;
 }
 
-
 .discount-badge {
     position: absolute;
     top: -25px;
@@ -1303,9 +1302,9 @@ hr {
 
 @media (max-width: 1200px) {
 
-
+    /* Header */
     nav {
-        /* padding: 0 20px; */
+        padding: 0 20px;
         gap: 12px;
     }
 
@@ -1327,7 +1326,7 @@ hr {
         padding: 0 15px;
     }
 
-
+    /* Hero */
     .main {
         padding: 70px 40px 30px;
         gap: 30px;
@@ -1356,7 +1355,7 @@ hr {
         width: 100%;
     }
 
-
+    /* Stores section */
     .second-part {
         max-width: none;
         margin: 27px 40px 50px;
@@ -1394,18 +1393,18 @@ hr {
         margin-left: 0;
     }
 
-
+    /* QR banner */
     .QR {
         margin: 20px 40px 80px;
     }
 
-
+    /* Info cards */
     .part3 {
         max-width: none;
         margin: 0 40px;
     }
 
-
+    /* Stats */
     .stats-section {
         width: auto;
         margin: 100px 40px 80px;
@@ -1429,7 +1428,7 @@ hr {
         min-height: 230px;
     }
 
-
+    /* Footer */
     hr {
         width: auto;
         margin: 20px 40px;
@@ -1465,7 +1464,7 @@ hr {
 }
 
 
-
+/* ---------- Tablets (landscape) ---------- */
 @media (max-width: 992px) {
 
     .heading {
@@ -1498,10 +1497,10 @@ hr {
 }
 
 
-
+/* ---------- Tablets (portrait) / large phones ---------- */
 @media (max-width: 768px) {
 
-
+    /* Header: logo + buttons on the first row, search below */
     .header {
         height: auto;
     }
@@ -1542,17 +1541,17 @@ hr {
         font-size: 13px;
     }
 
-
+    /* Header is taller now, so push the page down */
     main {
         padding-top: 130px;
     }
 
-
+    /* Sidebar */
     .sidebar ul {
         margin-left: 0;
     }
 
-
+    /* Hero */
     .main {
         flex-direction: column;
         padding: 40px 20px 30px;
@@ -1567,7 +1566,7 @@ hr {
         max-width: none;
     }
 
-
+    /* Stores */
     .second-part {
         margin: 25px 16px;
     }
@@ -1586,7 +1585,7 @@ hr {
         gap: 12px;
     }
 
-
+    /* QR banner */
     .QR {
         flex-direction: column;
         gap: 20px;
@@ -1599,7 +1598,7 @@ hr {
         margin-left: 0;
     }
 
-
+    /* Info cards */
     .part3 {
         margin: 0 16px;
     }
@@ -1613,7 +1612,7 @@ hr {
         max-height: 300px;
     }
 
-
+    /* Stats */
     .stats-section {
         margin: 60px 16px;
     }
@@ -1635,7 +1634,7 @@ hr {
         line-height: 1.4;
     }
 
-
+    /* FAQ */
     .faq-section {
         padding: 0 16px;
     }
@@ -1646,7 +1645,7 @@ hr {
         line-height: 1.4;
     }
 
-
+    /* Footer */
     hr {
         margin: 20px 16px;
     }
@@ -1688,7 +1687,7 @@ hr {
 }
 
 
-
+/* ---------- Small phones ---------- */
 @media (max-width: 480px) {
 
     .main {
